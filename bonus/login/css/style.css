@@ -1,0 +1,20 @@
+/* reset__________________________________________________________________ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Whitney, Helvetica Newe, Helvetica, Arial, sans-serif; 
+    color: #222629;
+    background-color: #f5f5f5;  
+}
+
+section, h1, p, a, div {
+    padding: 10px 10px;
+}
