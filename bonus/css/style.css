@@ -33,20 +33,15 @@ li>a {
     color: white;
     text-decoration: none;
 }
-
 .gap {
     gap: 20px;
-}
-
-div>a {
-    gap: 60px;
 }
 
 ul, li, nav, h1, p, a, img {
     padding: 10px 10px;
 }
 
-section:not(#sec-5) {
+section {
     padding: 50px 10px;
 }
 
@@ -81,7 +76,7 @@ ul {
 }
 
 .no-barr {
-    width: 100%;
+    max-width: 100%;
 }
 
 #ita {
@@ -104,11 +99,10 @@ ul {
     object-position: 30px;
 }
 
-svg.socials {
-    height: 2em;
+img.socials {
+    height: 1em;
     padding: 0px;
-    fill: white;
-    background-color: #222629;
+
 }
 
 .backgrownd-tarnish-purple {
@@ -143,6 +137,7 @@ svg.socials {
     margin-bottom: 80px;
 }
 
+
 #ready {
     padding: 0px 80px;
     background-image: url(../img/stars.svg);
@@ -154,19 +149,12 @@ svg.socials {
     
 }
 
-#lang, #bottom-links {
-    padding-top: 40px;
-}
-
 #lang {
     flex-grow: 1;
 }
 
 #bottom-links {
     flex-grow: 4;
-}
-
-#bottom-links, #lang {
     margin-bottom: 40px;
 }
 
@@ -181,10 +169,10 @@ div>nav {
 
 #hero-section {
     background-image: url("../img/jumbo.png");
-    background-size: auto  600px;
+    background-size: auto  750px;
     background-position: center;
     background-repeat: no-repeat;
-    height: 530px;
+    height: 650px;
 }
 
 /*
@@ -211,21 +199,8 @@ tarnished-purple   #748bdb
 
 p {
     font-size: 130%;
-    margin-bottom: 30px;
-}
-
-details {
-    font-size: 140%;
-    line-height: 1em;
+    line-height: 1.5em;
     margin: 20px 0px;
-}
-
-details>a>p {
-    font-size: 90%;
-    padding: 0;
-    margin: 0;
-    color: white;
-    text-decoration: none;
 }
 
 h4 {
@@ -242,8 +217,7 @@ h3 {
 
 h2 {
     color: #748bdb;
-    margin-bottom: 5px;
-    margin-left: 10px;
+    margin-bottom: ;
 }
 
 h1 {
@@ -271,22 +245,7 @@ tarnished-purple   #748bdb
     padding: 10px 20px;
     border-radius: 20px;
     text-decoration: none;
-}
-
-.button:hover, .socials:hover {
-    transform: scale(1.5,1.5);
-}
-
-li:hover, summary:hover {
-    text-decoration: underline;
-}
-
-socials:hover {
-    transform: scale(1.5);
-}
-
-#hero-buttons {
-    gap: 4em;
+     
 }
 
 .white-button {
@@ -365,23 +324,3 @@ a.mac-down::before {
 
 /* collassable list_________________________________________________________ */
 
-.row { 
-    vertical-align: top; height: auto !important; 
-}
-
-.show { 
-    display: none;
-}
-
-.hide:target + .show { 
-    display: inline; 
-}
-
-.hide:target { 
-    display: none; 
-}
-
-.hide:target ~ .list { 
-    display:inline; 
-}
-@media print { .hide, .show { display: none; } }
